@@ -92,8 +92,8 @@ print(dface_msg)
 
 from twilio.rest import TwilioRestClient
 
-account_sid = "AC39430058d108198ab88ed7aec9a81730" # Your Account SID from www.twilio.com/console
-auth_token  = "b742c6d5d1220d3c99cb6ff709ea90e9"  # Your Auth Token from www.twilio.com/console
+account_sid = "################" # Your Account SID from www.twilio.com/console
+auth_token  = "################"  # Your Auth Token from www.twilio.com/console
 
 client = TwilioRestClient(account_sid, auth_token)
 
